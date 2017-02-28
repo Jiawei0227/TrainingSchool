@@ -68,7 +68,7 @@ public class StudentCardController {
     @RequestMapping(value = "/student/studentCard-Invalid",method = RequestMethod.POST)
     public ModelAndView studentCardInvalid(HttpSession session){
         StudentVO student = (StudentVO)session.getAttribute("studentVO");
-        ResultMsg re =studentCardService.studentCardInvalid(student.studentID);
+        ResultMsg re =studentCardService.studentCardInvalid(student.studentCardID);
         ModelAndView md = null;
         if(re.getState() == StateCode.SUCCESS){
             HashMap<String,Object> data = new HashMap<String, Object>();
@@ -82,7 +82,7 @@ public class StudentCardController {
     @RequestMapping(value = "/student/studentCard-Valid",method = RequestMethod.POST)
     public ModelAndView studentCardvalid(HttpSession session){
         StudentVO student = (StudentVO)session.getAttribute("studentVO");
-        ResultMsg re =studentCardService.studentCardValid(student.studentID);
+        ResultMsg re =studentCardService.studentCardValid(student.studentCardID);
         ModelAndView md = null;
         if(re.getState() == StateCode.SUCCESS){
             HashMap<String,Object> data = new HashMap<String, Object>();

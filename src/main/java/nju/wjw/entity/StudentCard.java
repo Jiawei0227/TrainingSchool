@@ -8,6 +8,7 @@ import java.sql.Timestamp;
  * Created by Jerry Wang on 2017/2/13.
  */
 @Entity
+@Table(name="studentcard")
 public class StudentCard {
 
     /**
@@ -20,7 +21,7 @@ public class StudentCard {
     /**
      * 学员卡
      */
-    @OneToOne
+    @OneToOne(mappedBy = "studentCard",optional = false,cascade = CascadeType.ALL)
     private Student student;
 
     /**

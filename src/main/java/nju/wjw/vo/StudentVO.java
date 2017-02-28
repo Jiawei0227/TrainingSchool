@@ -7,6 +7,8 @@ public class StudentVO {
 
     public String studentID;
 
+    public String studentCardID;
+
     public String name;
 
     public String age;

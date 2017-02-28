@@ -8,6 +8,7 @@ import java.sql.Timestamp;
  * Created by Jerry Wang on 2017/2/13.
  */
 @Entity
+@Table(name = "history")
 public class History {
 
     @Id
@@ -18,8 +19,12 @@ public class History {
      * 学生历史记录
      */
     @ManyToOne
-    @JoinColumn(name="student")
+    @JoinColumn(name="studentId",nullable = true)
     private Student student;
+
+    @ManyToOne
+    @JoinColumn(name="organizationId",nullable = true)
+    private Organization organization;
 
     private Timestamp createdAt;
 
@@ -55,5 +60,13 @@ public class History {
 
     public void setAction(String action) {
         this.action = action;
+    }
+
+    public Organization getOrganization() {
+        return organization;
+    }
+
+    public void setOrganization(Organization organization) {
+        this.organization = organization;
     }
 }

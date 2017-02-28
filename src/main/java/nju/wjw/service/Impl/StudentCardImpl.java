@@ -77,6 +77,7 @@ public class StudentCardImpl implements StudentCardService {
     }
 
     public StudentCardVO studentCardVO(String studentId) {
+        System.out.println(studentId);
         Student student = DAOManager.studentDao.get(Integer.parseInt(studentId));
 
         StudentCardVO re = new StudentCardVO();
@@ -85,8 +86,8 @@ public class StudentCardImpl implements StudentCardService {
         return re;
     }
 
-    public ResultMsg studentCardInvalid(String studentId) {
-        StudentCard st = DAOManager.studentCardDao.get(Integer.parseInt(studentId));
+    public ResultMsg studentCardInvalid(String studentCardID) {
+        StudentCard st = DAOManager.studentCardDao.get(Integer.parseInt(studentCardID));
         st.setMemberValidity(0);
 
         DAOManager.studentCardDao.update(st);

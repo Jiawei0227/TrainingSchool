@@ -7,12 +7,13 @@ import java.util.List;
  * Created by Jerry Wang on 2017/2/13.
  */
 @Entity
+@Table(name = "student")
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer sid;
 
-    @OneToOne
+    @OneToOne(optional = true,cascade = CascadeType.ALL)
     private StudentCard studentCard;
 
     private String name;
@@ -23,6 +24,10 @@ public class Student {
 
     @OneToMany(mappedBy = "student")
     private List<History> historyList;
+
+    @ManyToMany
+    @JoinTable(name="score",joinColumns = @JoinColumn(name="sid"),inverseJoinColumns = @JoinColumn(name="cid"))
+    private List<Course> courses;
 
     public Integer getSid() {
         return sid;
@@ -72,5 +77,11 @@ public class Student {
         this.historyList = historyList;
     }
 
+    public List<Course> getCourses() {
+        return courses;
+    }
 
+    public void setCourseList(List<Course> courses) {
+        this.courses = courses;
+    }
 }

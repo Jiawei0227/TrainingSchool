@@ -1,15 +1,13 @@
 package nju.wjw.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * 银行账户与密码
  * Created by Jerry Wang on 2017/2/13.
  */
 @Entity
+@Table(name = "account")
 public class Account {
 
     @Id

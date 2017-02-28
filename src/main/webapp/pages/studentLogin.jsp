@@ -67,7 +67,7 @@
                 <input type="checkbox" name="remember" value="true"> 记住我
                 <input type="submit" class="btn btn-primary btn-lg1 btn-block" name="submit" value="登录">
             </div>
-            <p>还没有账号? <a href="/studentRegister" title="Sign Up">注册</a></p>
+            <p>还没有账号? <a href="/student/studentRegister" title="Sign Up">注册</a></p>
         </form>
     </div>
 </div>

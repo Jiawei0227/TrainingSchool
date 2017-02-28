@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-phone"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="#">会员卡恢复</a></h5>
+                        <h5><a href="/student/studentCardValid">会员卡恢复</a></h5>
                         <p>有效期一年，到期后卡上费用不足将暂停其记录；一旦支付，则恢复，会员记录可用；暂停1年后未支付，会员记录停止.</p>
                     </div>
                 </div>
