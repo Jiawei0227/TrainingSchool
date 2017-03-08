@@ -30,6 +30,11 @@
             <mvc:mapping path="/student/**"/>
             <bean class="nju.wjw.interceptor.StudentLoginIntercepor"></bean>
         </mvc:interceptor>
+
+        <mvc:interceptor>
+            <mvc:mapping path="/organization/**"/>
+            <bean class="nju.wjw.interceptor.OrganizationIntercepor"></bean>
+        </mvc:interceptor>
     </mvc:interceptors>
     
 </beans>

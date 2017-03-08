@@ -14,6 +14,13 @@ public class Organization {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer oid;
 
+    private String name;
+
+    private String email;
+
+    @OneToOne(optional = true,cascade = CascadeType.ALL)
+    private OrganizationCard organizationCard;
+
     @OneToMany
     @JoinColumn(name = "oid")
     private List<Course> courseList;
@@ -21,6 +28,30 @@ public class Organization {
     @OneToOne
     @JoinColumn(name="aid")
     private Account account;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public OrganizationCard getOrganizationCard() {
+        return organizationCard;
+    }
+
+    public void setOrganizationCard(OrganizationCard organizationCard) {
+        this.organizationCard = organizationCard;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public Integer getOid() {
         return oid;

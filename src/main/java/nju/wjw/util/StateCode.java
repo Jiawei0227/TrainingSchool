@@ -17,4 +17,6 @@ public class StateCode {
 
     public static final int ACCOUNT_MONEY_NOT_ENOUGH = 202;
 
+    public static final int TIME_ERROR = 301;
+
 }

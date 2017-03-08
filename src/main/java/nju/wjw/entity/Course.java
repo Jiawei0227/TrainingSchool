@@ -15,7 +15,13 @@ public class Course {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer cid;
 
+    @ManyToOne
+    @JoinColumn(name = "oid")
+    private Organization organization;
+
     private String name;
+
+    private String description;
 
     private String teacher;
 
@@ -29,6 +35,14 @@ public class Course {
 
     @ManyToMany(mappedBy = "courses")
     private List<Student> students;
+
+    public Organization getOrganization() {
+        return organization;
+    }
+
+    public void setOrganization(Organization organization) {
+        this.organization = organization;
+    }
 
     public Integer getCid() {
         return cid;
@@ -92,5 +106,13 @@ public class Course {
 
     public void setStudents(List<Student> students) {
         this.students = students;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

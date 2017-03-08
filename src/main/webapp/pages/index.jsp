@@ -75,7 +75,7 @@
 
         <div class="links">
             <a href="/student/studentLogin">学员平台</a>
-            <a href="{{url('/competition/mycompetition')}}">机构平台</a>
+            <a href="/organization/Login">机构平台</a>
             <a href="{{url('/moments')}}">经理登录</a>
             <a href="{{url('/about')}}">关于我们</a>
         </div>

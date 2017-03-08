@@ -9,4 +9,10 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class OrganizationDao extends BaseDao<Organization,Integer> {
+
+    public Organization getByCardNum(String cardNum){
+        return getByHQL("from Organization o where o.organizationCard.sid=?",Integer.parseInt(cardNum));
+    }
+
+
 }

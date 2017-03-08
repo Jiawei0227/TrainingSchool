@@ -24,6 +24,8 @@ public class DAOManager {
 
     public final static ScoreDao scoreDao;
 
+    public final static OrganizationCardDao organizationCardDao;
+
     static{
         ApplicationContext context = ApplicationContextHelper.getApplicationContext();
         accountDao = context.getBean(AccountDao.class);
@@ -34,6 +36,8 @@ public class DAOManager {
         managerDao = context.getBean(ManagerDao.class);
         organizationDao = context.getBean(OrganizationDao.class);
         scoreDao = context.getBean(ScoreDao.class);
+        organizationCardDao = context.getBean(OrganizationCardDao.class);
+
     }
 
 }
