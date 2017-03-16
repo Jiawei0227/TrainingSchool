@@ -17,4 +17,8 @@ public class CourseVO {
     public String startTime;
 
     public String endTime;
+
+    public int isPassed;
+
+    public int isChecked;
 }

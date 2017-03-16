@@ -1,6 +1,6 @@
 package nju.wjw.interceptor;
 
-import nju.wjw.vo.StudentVO;
+import nju.wjw.vo.OrganizationVO;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -21,7 +21,7 @@ public class OrganizationIntercepor implements HandlerInterceptor {
         }
         //获取Session
         HttpSession session = httpServletRequest.getSession();
-        StudentVO studentVO = (StudentVO)session.getAttribute("organizationVO");
+        OrganizationVO studentVO = (OrganizationVO)session.getAttribute("organizationVO");
 
         if(studentVO != null){
             return true;

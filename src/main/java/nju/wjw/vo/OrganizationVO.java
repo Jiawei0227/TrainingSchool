@@ -23,5 +23,7 @@ public class OrganizationVO {
 
     public String account_id;
 
+    public String description;
+
 
 }

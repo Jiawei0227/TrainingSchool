@@ -32,7 +32,8 @@ public class StudentCardImpl implements StudentCardService {
                     aa.setBalance(aa.getBalance() - moneyd);
                     DAOManager.accountDao.update(aa);
                     //记录历史并添加进入学生账户
-                    StudentCard studentCard = DAOManager.studentCardDao.get(Integer.parseInt(studentID));
+                    StudentCard studentCard = DAOManager.studentDao.get(Integer.parseInt(studentID)).getStudentCard();
+
                     studentCard.setLevel(studentCard.getLevel()+moneyd);
 
                     //记录历史
@@ -72,6 +73,7 @@ public class StudentCardImpl implements StudentCardService {
                 return new ResultMsg(StateCode.FAILURE,"密码错误，登录失败");
             }
         }catch (Exception e){
+            e.printStackTrace();
             return new ResultMsg(StateCode.ACCOUNTERROR,"银行账户异常，请检查重新设置。");
         }
     }

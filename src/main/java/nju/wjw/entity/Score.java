@@ -5,6 +5,7 @@ import javax.persistence.*;
 /**
  * Created by Jerry Wang on 2017/2/28.
  */
+@Entity
 @Table(name="score")
 public class Score {
 
@@ -21,6 +22,12 @@ public class Score {
     @ManyToOne
     @JoinColumn(name="cid")
     private Course course;
+
+    private String state;
+    /**
+     * 成绩登记备注
+     */
+    private String back;
 
     public Integer getScoreId() {
         return scoreId;
@@ -50,7 +57,23 @@ public class Score {
         return course;
     }
 
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
     public void setCourse(Course course) {
         this.course = course;
+    }
+
+    public String getBack() {
+        return back;
+    }
+
+    public void setBack(String back) {
+        this.back = back;
     }
 }

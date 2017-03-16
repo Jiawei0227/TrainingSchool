@@ -3,31 +3,146 @@
   <component name="ChangeListManager">
     <list default="true" id="c448f2f3-f465-410a-8dfd-db178c707cf0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/MainController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/OrganizationController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/OrganizationController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/StudentCardController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/StudentCardController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/AccountDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/CourseDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/CourseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/DAOManager.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/DAOManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/HistoryDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/HistoryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ManagerDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ManagerDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationCardDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationCardDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ScoreDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ScoreDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentCardDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentCardDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao$1.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/IBaseDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/IBaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/PageResults.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/PageResults.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/RowMapper.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/RowMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Account.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Account.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Course.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Course.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/History.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/History.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Manager.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Manager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Organization.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Organization.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/OrganizationCard.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/OrganizationCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Score.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Score.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Student.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/StudentCard.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/StudentCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/OrganizationImpl.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/OrganizationImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentCardImpl.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentCardImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/OrganizationService.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/OrganizationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentCardService.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentCardService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentService.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ApplicationContextHelper.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ApplicationContextHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ResultMsg.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ResultMsg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StateCode.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StateCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StudentLevel.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StudentLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/CourseVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/CourseVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/OrganizationVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/OrganizationVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentCardVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentCardVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentVO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/MainController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/OrganizationController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/OrganizationController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/StudentCardController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/StudentCardController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/AccountDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/CourseDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/CourseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/DAOManager.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/DAOManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/HistoryDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/HistoryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ManagerDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ManagerDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationCardDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationCardDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ScoreDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ScoreDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentCardDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentCardDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao$1.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/IBaseDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/IBaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/PageResults.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/PageResults.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/RowMapper.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/RowMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Account.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Account.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Course.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Course.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/History.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/History.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Manager.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Manager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Organization.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Organization.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/OrganizationCard.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/OrganizationCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Score.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Score.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Student.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/StudentCard.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/StudentCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/OrganizationImpl.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/OrganizationImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentCardImpl.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentCardImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/OrganizationService.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/OrganizationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentCardService.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentCardService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentService.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/ApplicationContextHelper.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/ApplicationContextHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/ResultMsg.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/ResultMsg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/StateCode.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/StateCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/StudentLevel.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/StudentLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/CourseVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/CourseVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/OrganizationVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/OrganizationVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentCardVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentCardVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TimeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TimeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TrainingCollege.iml" afterPath="$PROJECT_DIR$/TrainingCollege.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/DAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/DAOManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/OrganizationDao.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/OrganizationDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/CourseDao.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/CourseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/HistoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/HistoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Course.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Course.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Manager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/util/StateCode.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/util/StateCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/OrganizationIntercepor.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/OrganizationIntercepor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentCardImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentCardImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseVO.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseVO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties/hibernate.properties" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties/hibernate.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/info.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/info.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/loginInfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/loginInfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/registerInfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/registerInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentActive.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentActive.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentCardInvalid.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentCardInvalid.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentCardService.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentCardService.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/META-INF/properties/hibernate.properties" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/META-INF/properties/hibernate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/spring-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/spring-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/css/style.css" afterPath="$PROJECT_DIR$/target/TC-system/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/header.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/index.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/registerInfo.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/registerInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/info.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/newCourseApply.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/newCourseApply.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/organizationRegister.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/organizationRegister.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/organizationService.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/organizationService.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/organizationlogin.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/organizationlogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentActive.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentActive.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentCardInvalid.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentCardInvalid.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentCardService.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentCardService.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentLogin.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentLogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentRegister.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentRegister.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties/hibernate.properties" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties/hibernate.properties" />
     </list>
     <ignored path="TrainingCollege.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,15 +164,74 @@
     <favorites_list name="TrainingCollege" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganizationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganizationImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="409" column="8" selection-start-line="409" selection-start-column="8" selection-end-line="409" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#16964#16965#0" expanded="true" />
+                <element signature="e#16991#16992#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganizationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scoreCheckInDetail.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="101" column="175" selection-start-line="101" selection-start-column="175" selection-end-line="101" selection-end-column="175" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -72,57 +246,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TimeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/LoginIntercepor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/StudentLoginIntercepor.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentCardInvaild.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/StudentCardDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentCardVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentCardService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Class.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/History.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/StudentCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentCardImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/CourseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ManagerDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/registerInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/DAOManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/OrganizationCardDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/OrganizationCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/OrganizationDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentActive.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentCardInvalid.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/studentCardService.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/loginInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/info.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/util/StateCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/OrganizationIntercepor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseAndOrganizationVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/ManagerIntercepor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/util/CourseStudentState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseDetailViewVO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/courseDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/courseLists.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganCourseVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/applyCheckCourseDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseConfirmDetailViewVO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties/hibernate.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentCardImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/courseConfirmDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/updateCourseApply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentCourseVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/HistoryVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentHistory.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/HistoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationHistory.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/TaskBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/TaskManager.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/courseConfirm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/myCourseList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java" />
       </list>
     </option>
   </component>
@@ -152,10 +326,76 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
     <option name="y" value="23" />
-    <option name="width" value="1437" />
-    <option name="height" value="810" />
+    <option name="width" value="1440" />
+    <option name="height" value="803" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Play</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -182,8 +422,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,6 +451,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingCollege" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingCollege" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -235,10 +488,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,28 +514,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingCollege" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingCollege" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,10 +588,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wjw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,73 +681,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interceptor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingCollege" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingCollege" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wjw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingCollege" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrainingCollege" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wjw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -533,21 +701,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/fonts" />
-      <recent name="$PROJECT_DIR$/src/main/java/nju/wjw/dao" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="nju.wjw.util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/image" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/properties" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nju.wjw.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/nju/wjw/util" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/fonts" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.TC">
@@ -570,6 +738,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OrganizationImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nju.wjw.service.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="nju.wjw.service.Impl.OrganizationImpl" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TrainingCollege" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1069,13 +1257,15 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.TC" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TimeTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OrganizationImpl" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TimeTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.OrganizationImpl" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1104,6 +1294,16 @@
       <workItem from="1488806010326" duration="2160000" />
       <workItem from="1488867351488" duration="2476000" />
       <workItem from="1488976745242" duration="4705000" />
+      <workItem from="1489027599374" duration="238000" />
+      <workItem from="1489066971559" duration="1301000" />
+      <workItem from="1489150320671" duration="1129000" />
+      <workItem from="1489303284591" duration="8352000" />
+      <workItem from="1489389019597" duration="1150000" />
+      <workItem from="1489470807422" duration="15967000" />
+      <workItem from="1489563402829" duration="6456000" />
+      <workItem from="1489575996646" duration="7747000" />
+      <workItem from="1489642302223" duration="11738000" />
+      <workItem from="1489667746832" duration="1280000" />
     </task>
     <servers />
   </component>
@@ -1125,7 +1325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64687000" />
+    <option name="totallyTimeSpent" value="120045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1137,39 +1337,70 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1437" height="810" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53342617" sideWeight="0.45376346" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.49120432" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.278481" sideWeight="0.41845495" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34958217" sideWeight="0.5462366" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4416315" sideWeight="0.2732475" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42896935" sideWeight="0.790681" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43881857" sideWeight="0.7267525" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24802868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26108727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49655765" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4416315" sideWeight="0.2732475" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.49120432" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.278481" sideWeight="0.41845495" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4416315" sideWeight="0.7267525" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49427754" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49427754" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26108727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.49655765" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1193,431 +1424,402 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/ManagerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/StudentCardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="65" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/StudentCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentCardVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/registerInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="72" column="93" selection-start-line="43" selection-start-column="8" selection-end-line="72" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/OrganizationCardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/OrganizationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/DAOManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap-datetimepicker.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentCardService.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="101">
+          <caret line="64" column="68" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/loginInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentActive.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentCardInvalid.jsp">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <caret line="529" column="16" selection-start-line="529" selection-start-column="16" selection-end-line="529" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseConfirmDetailViewVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1144">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/sql/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/util/StateCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentCardImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="89" column="85" selection-start-line="89" selection-start-column="85" selection-end-line="89" selection-end-column="85" />
+        <state relative-caret-position="141">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="64" column="9" selection-start-line="56" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/ApplyCheck.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="52" column="18" selection-start-line="39" selection-start-column="8" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="304">
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/OrganizationCard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/updateCourseApply.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="e#866#867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/OrganizationIntercepor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/StudentLoginIntercepor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="280">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="75" column="134" selection-start-line="75" selection-start-column="134" selection-end-line="75" selection-end-column="134" />
+        <state relative-caret-position="1035">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-631">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1873#1889#0" expanded="true" />
-            <element signature="e#2096#2112#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="990">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/courseLists.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="68" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganCourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="6" selection-start-column="4" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentCardVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentCourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/HistoryVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/history.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/HistoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="204" column="49" selection-start-line="204" selection-start-column="49" selection-end-line="204" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentHistory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/organizationHistory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/WeixiaoTaskUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/util/CourseStudentState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/courseConfirmDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="248" column="65" selection-start-line="248" selection-start-column="65" selection-end-line="248" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/TaskBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1436">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/TaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/TaskEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="214">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/courseDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="101" column="70" selection-start-line="101" selection-start-column="70" selection-end-line="101" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/myCourseList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="85" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding>
+            <element signature="e#1269#1270#0" expanded="false" />
+            <element signature="e#1309#1310#0" expanded="false" />
+            <element signature="e#1341#1342#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/courseConfirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="119" column="60" selection-start-line="119" selection-start-column="60" selection-end-line="119" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/StudentCardDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1160" column="22" selection-start-line="1160" selection-start-column="22" selection-end-line="1160" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="101" column="175" selection-start-line="101" selection-start-column="175" selection-end-line="101" selection-end-column="175" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="212">
+          <caret line="409" column="8" selection-start-line="409" selection-start-column="8" selection-end-line="409" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#16964#16965#0" expanded="true" />
+            <element signature="e#16991#16992#0" expanded="true" />
           </folding>
         </state>
       </provider>

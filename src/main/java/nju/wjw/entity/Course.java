@@ -33,6 +33,8 @@ public class Course {
 
     private int isChecked;
 
+    private int isPassed;
+
     @ManyToMany(mappedBy = "courses")
     private List<Student> students;
 
@@ -114,5 +116,13 @@ public class Course {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public int getIsPassed() {
+        return isPassed;
+    }
+
+    public void setIsPassed(int isPassed) {
+        this.isPassed = isPassed;
     }
 }

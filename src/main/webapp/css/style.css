@@ -1077,15 +1077,26 @@ p.description{
     line-height: 1;
 }
 .table-header > div.id_col {
-    width: 12%;
+    width: 10%;
     text-transform: uppercase;
 }
 .table-header > div.name_col {
-    width: 52%;
+    width: 20%;
 }
-.table-header > div.duration_col {
-    width: 17%;
+.table-header > div.startdate_col {
+    width: 15%;
 }
+.table-header > div.enddate_col {
+    width: 15%;
+}
+.table-header > div.price_col {
+    width: 15%;
+}
+.table-header > div.check_col {
+    width: 15%;
+}
+
+
 .courses_box1 {
     padding: 5em 0;
 }
@@ -1101,7 +1112,7 @@ p.description{
     background-color: #ffffff;
 }
 .course_list .table-list li > div.id_col {
-    width: 12%;
+    width: 10%;
     text-transform: uppercase;
 }
 .course_list .table-list li > div {
@@ -1109,26 +1120,32 @@ p.description{
     padding: 15px 20px;
 }
 .course_list .table-list li > div.name_col {
-    width: 52%;
+    width: 20%;
 }
-.course_list .table-list li > div.duration_col {
-    width: 17%;
+.course_list .table-list li > div.startdate_col {
+    width: 15%;
 }
-.course_list .table-list li > div.date_col {
-    width: 19%;
+.course_list .table-list li > div.enddate_col {
+    width: 15%;
+}
+.course_list .table-list li > div.check_col {
+    width: 15%;
+}
+.course_list .table-list li > div.price_col {
+    width: 15%;
 }
 .course_list .table-list li:nth-child(even) {
     background-color: #f2f4f5;
 }
 .course_list .table-list li:hover {
     background-color:#9FA8C1;
-    color: #ffffff;
+    color: #000000;
 }
 .course_list .table-list li .name_col a{
     color: #000;
 }
 .course_list .table-list li:hover .name_col a{
-    color: #ffffff;
+    color: #000000;
 }
 .courses_box1-left{
     background-color: #f2f4f5;
@@ -2966,8 +2983,9 @@ p.description {
     margin: 0 auto 1em auto;
 }
 .table-header > div.name_col {
-    width: 43%;
+    width: 40%;
 }
+
 .course_list .table-header > div {
     padding: 12px 15px;
     font-size: 16px;

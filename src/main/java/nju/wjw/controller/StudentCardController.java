@@ -93,7 +93,7 @@ public class StudentCardController {
         return md;
     }
 
-    @RequestMapping(value="/student/studentValid")
+    @RequestMapping(value="/student/studentCardValid")
     public ModelAndView studentCardValid(HttpSession session){
         StudentVO student = (StudentVO)session.getAttribute("studentVO");
         HashMap<String,Object> data = new HashMap<String, Object>();
@@ -104,4 +104,6 @@ public class StudentCardController {
         ModelAndView md = new ModelAndView("studentCardInvalid",data);
         return md;
     }
+
+
 }

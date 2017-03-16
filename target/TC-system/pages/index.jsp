@@ -65,18 +65,25 @@
         }
     </style>
 </head>
-<body background="images/background.jpg" style="background-repeat:no-repeat; background-position: center;">
+<body background="/images/1.jpg" style="background-repeat:no-repeat; background-position: center;">
 <div class="flex-center position-ref full-height">
 
     <div class="content">
         <div class="title m-b-md">
-            <img src="images/logo.png">
+            <div class="banner-bg">
+                <div class="container">
+                    <div class="banner-info">
+                        <h3 style="color:#FFFFFF">Elite College</h3>
+                    </div>
+                </div>
+            </div>
+            <%--<img src="images/logo.png">--%>
         </div>
 
         <div class="links">
             <a href="/student/studentLogin">学员平台</a>
             <a href="/organization/Login">机构平台</a>
-            <a href="{{url('/moments')}}">经理登录</a>
+            <a href="/managerPlatform/Login">经理登录</a>
             <a href="{{url('/about')}}">关于我们</a>
         </div>
     </div>

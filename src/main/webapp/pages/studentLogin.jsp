@@ -14,7 +14,7 @@
     <!-- Custom Theme files -->
     <link href="/css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="/css/jquery.countdown.css" />
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+
     <!----font-Awesome----->
     <link href="/css/font-awesome.css" rel="stylesheet">
     <!----font-Awesome----->

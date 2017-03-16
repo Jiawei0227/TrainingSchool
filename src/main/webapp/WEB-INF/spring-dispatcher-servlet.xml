@@ -35,6 +35,11 @@
             <mvc:mapping path="/organization/**"/>
             <bean class="nju.wjw.interceptor.OrganizationIntercepor"></bean>
         </mvc:interceptor>
+
+        <mvc:interceptor>
+            <mvc:mapping path="/managerPlatform/**"/>
+            <bean class="nju.wjw.interceptor.ManagerIntercepor"></bean>
+        </mvc:interceptor>
     </mvc:interceptors>
     
 </beans>

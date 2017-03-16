@@ -18,16 +18,36 @@ public class Organization {
 
     private String email;
 
+    private String description;
+
+    private Double money;
+
     @OneToOne(optional = true,cascade = CascadeType.ALL)
     private OrganizationCard organizationCard;
 
-    @OneToMany
+    @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "oid")
     private List<Course> courseList;
 
     @OneToOne
     @JoinColumn(name="aid")
     private Account account;
+
+    public Double getMoney() {
+        return money;
+    }
+
+    public void setMoney(Double money) {
+        this.money = money;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public String getName() {
         return name;

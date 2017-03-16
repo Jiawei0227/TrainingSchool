@@ -1,4 +1,5 @@
-<%@ page import="nju.wjw.vo.StudentVO" %><%--
+<%@ page import="nju.wjw.vo.StudentVO" %>
+<%@ page import="nju.wjw.vo.OrganizationVO" %><%--
   Created by IntelliJ IDEA.
   User: wangjiawei
   Date: 2017/2/13
@@ -24,36 +25,36 @@
 
                 <li class="dropdown">
                     <%
-                        if(session.getAttribute("studentVO") == null) {
-                    %>
-                    <a href="/studentLogin"><i class="fa fa-user"></i><span>登录</span></a>
-                    <%
-                        }else {
+                        if(session.getAttribute("studentVO") != null) {
                             StudentVO st = (StudentVO) session.getAttribute("studentVO");
-
                     %>
-                    <a href="#"><i class="fa fa-user"></i><span><%=st.name%></span></a>
+                    <a href="/student/studentService"><i class="fa fa-user"></i><span><%=st.name%></span></a>
                 </li>
                 <li class="dropdown">
                     <a href="/student/studentLogout"><i class="fa fa-times"></i><span>登出</span></a>
-                    <%}%>
-                </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>课程</span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="courses.html">Courses Categories</a></li>
-                        <li><a href="courses.html">Courses list</a></li>
-                        <li><a href="courses.html">Courses detail</a></li>
+                        <li><a href="/student/courseList">课程列表</a></li>
+                        <li><a href="/student/myCourse">我的课程</a></li>
+                        <li><a href="/student/scoreList">成绩</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>事件</span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="events.html">Event1</a></li>
-                        <li><a href="events.html">Event2</a></li>
-                        <li><a href="events.html">Event3</a></li>
-                    </ul>
+                    <a href="/student/studentService"><i class="fa fa-calendar"></i><span>服务</span></a>
                 </li>
+
+                    <%
+                        }else if(session.getAttribute("organizationVO") != null){
+                            OrganizationVO o = (OrganizationVO)session.getAttribute("organizationVO");
+                    %>
+                    <a href="/organization/organizationService"><i class="fa fa-user"></i><span><%=o.name %></span></a>
+                <li class="dropdown">
+                    <a href="/organization/Logout"><i class="fa fa-times"></i><span>登出</span></a>
+                <li class="dropdown">
+                    <%}%>
+                </li>
+
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i><span>查询</span></a>

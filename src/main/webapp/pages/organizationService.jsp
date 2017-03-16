@@ -9,7 +9,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Register</title>
+    <title>机构管理</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
@@ -22,7 +22,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- Custom Theme files -->
     <link href="/css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="/css/jquery.countdown.css" />
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <%--<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>--%>
     <!----font-Awesome----->
     <link href="/css/font-awesome.css" rel="stylesheet">
     <!----font-Awesome----->
@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-phone"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/student/studentCardValid">班级信息修改</a></h5>
+                        <h5><a href="/organization/updateCourseList">班级信息修改</a></h5>
                         <p>修改班级上课信息，需要向经理发送申请并经过审核</p>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-star"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/student/studentCardInvalid">学员信息登记</a></h5>
+                        <h5><a href="/organization/courseConfirm">学员信息登记</a></h5>
                         <p>审批学员信息，成绩管理，学员管理</p>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-globe"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="#">机构统计信息查看</a></h5>
+                        <h5><a href="/organization/myHistory">机构统计信息查看</a></h5>
                         <p>查看本机构学生预定，退订，学员学习，财务等问题 </p>
                     </div>
                 </div>
