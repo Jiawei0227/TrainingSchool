@@ -2,147 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c448f2f3-f465-410a-8dfd-db178c707cf0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/MainController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/OrganizationController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/OrganizationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/StudentCardController.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/controller/StudentCardController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/AccountDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/CourseDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/CourseDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/DAOManager.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/DAOManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/HistoryDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/HistoryDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ManagerDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ManagerDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationCardDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationCardDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/OrganizationDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ScoreDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/ScoreDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentCardDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentCardDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/StudentDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao$1.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/BaseDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/IBaseDao.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/IBaseDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/PageResults.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/PageResults.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/RowMapper.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/dao/base/RowMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Account.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Course.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Course.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/History.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Manager.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Organization.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Organization.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/OrganizationCard.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/OrganizationCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Score.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Score.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Student.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/StudentCard.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/entity/StudentCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/OrganizationImpl.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/OrganizationImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentCardImpl.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentCardImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/Impl/StudentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/OrganizationService.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/OrganizationService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentCardService.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentCardService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentService.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/service/StudentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ApplicationContextHelper.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ApplicationContextHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ResultMsg.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/ResultMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StateCode.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StateCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StudentLevel.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/util/StudentLevel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/CourseVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/CourseVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/OrganizationVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/OrganizationVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentCardVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentCardVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentVO.class" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/nju/wjw/vo/StudentVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/MainController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/OrganizationController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/OrganizationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/controller/StudentCardController.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/controller/StudentCardController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/AccountDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/AccountDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/CourseDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/CourseDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/DAOManager.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/DAOManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/HistoryDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/HistoryDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ManagerDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ManagerDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationCardDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationCardDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/OrganizationDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ScoreDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/ScoreDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentCardDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentCardDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/StudentDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao$1.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/BaseDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/IBaseDao.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/IBaseDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/PageResults.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/PageResults.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/RowMapper.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/dao/base/RowMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Account.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Course.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Course.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/History.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Manager.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Organization.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Organization.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/OrganizationCard.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/OrganizationCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Score.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Score.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Student.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/entity/StudentCard.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/entity/StudentCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/interceptor/StudentLoginIntercepor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/OrganizationImpl.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/OrganizationImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentCardImpl.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentCardImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/Impl/StudentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/OrganizationService.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/OrganizationService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentCardService.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentCardService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentService.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/service/StudentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/ApplicationContextHelper.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/ApplicationContextHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/ResultMsg.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/ResultMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/StateCode.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/StateCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/util/StudentLevel.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/util/StudentLevel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/CourseVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/CourseVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/OrganizationVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/OrganizationVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentCardVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentCardVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentVO.class" afterPath="$PROJECT_DIR$/target/classes/nju/wjw/vo/StudentVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TimeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TimeTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TrainingCollege.iml" afterPath="$PROJECT_DIR$/TrainingCollege.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentCardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/CourseDao.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/CourseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/HistoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/HistoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Course.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Course.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/OrganizationIntercepor.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/interceptor/OrganizationIntercepor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentCardImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentCardImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseVO.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/OrganizationVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties/hibernate.properties" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties/hibernate.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java" afterPath="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/info.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/info.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentActive.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentActive.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentCardInvalid.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentCardInvalid.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentCardService.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentCardService.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/META-INF/properties/hibernate.properties" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/classes/META-INF/properties/hibernate.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/WEB-INF/spring-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/TC-system/WEB-INF/spring-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/css/style.css" afterPath="$PROJECT_DIR$/target/TC-system/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/header.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/index.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/info.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/info.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/newCourseApply.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/newCourseApply.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/organizationRegister.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/organizationRegister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/organizationService.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/organizationService.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/organizationlogin.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/organizationlogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentActive.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentActive.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentCardInvalid.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentCardInvalid.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentCardService.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentCardService.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentLogin.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentLogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TC-system/pages/studentRegister.jsp" afterPath="$PROJECT_DIR$/target/TC-system/pages/studentRegister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties/hibernate.properties" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties/hibernate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp" />
     </list>
     <ignored path="TrainingCollege.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -168,8 +38,8 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="237">
+              <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,11 +47,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java">
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+            <state relative-caret-position="237">
+              <caret line="225" column="32" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentScoreVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,25 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java">
+      <file leaf-file-name="myScoreList.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/myScoreList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="409" column="8" selection-start-line="409" selection-start-column="8" selection-end-line="409" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#16964#16965#0" expanded="true" />
-                <element signature="e#16991#16992#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="567">
+              <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java">
+      <file leaf-file-name="StudentVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -216,8 +102,18 @@
       <file leaf-file-name="scoreCheckInDetail.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="101" column="175" selection-start-line="101" selection-start-column="175" selection-end-line="101" selection-end-column="175" />
+            <state relative-caret-position="105">
+              <caret line="88" column="78" selection-start-line="88" selection-start-column="78" selection-end-line="88" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentLogin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="67" column="78" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -246,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentCardService.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationRegister.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationlogin.jsp" />
@@ -274,29 +169,30 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/newCourseApply.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentCourseVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/HistoryVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/studentHistory.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/HistoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationHistory.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/organizationService.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/TaskBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/util/scheduletask/TaskManager.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/courseConfirm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/myCourseList.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/myScoreList.jsp" />
       </list>
     </option>
   </component>
@@ -326,7 +222,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="60" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="803" />
   </component>
@@ -1303,7 +1200,7 @@
       <workItem from="1489563402829" duration="6456000" />
       <workItem from="1489575996646" duration="7747000" />
       <workItem from="1489642302223" duration="11738000" />
-      <workItem from="1489667746832" duration="1280000" />
+      <workItem from="1489667746832" duration="4082000" />
     </task>
     <servers />
   </component>
@@ -1325,7 +1222,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120045000" />
+    <option name="totallyTimeSpent" value="122847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1337,7 +1234,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
+    <frame x="60" y="24" width="1440" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1350,7 +1247,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43881857" sideWeight="0.7267525" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38255978" sideWeight="0.7267525" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1424,28 +1321,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentRegister.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="64" column="68" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="529" column="16" selection-start-line="529" selection-start-column="16" selection-end-line="529" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/CourseConfirmDetailViewVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1543,6 +1418,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1583,18 +1459,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
           <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,21 +1472,6 @@
         <state relative-caret-position="105">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="204" column="49" selection-start-line="204" selection-start-column="49" selection-end-line="204" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1641,14 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1714,14 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/myCourseList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="85" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/entity/Score.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1730,16 +1568,6 @@
             <element signature="e#1269#1270#0" expanded="false" />
             <element signature="e#1309#1310#0" expanded="false" />
             <element signature="e#1341#1342#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1768,10 +1596,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="67" column="78" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="95" column="67" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/myCourseList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="85" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="414" column="29" selection-start-line="414" selection-start-column="29" selection-end-line="414" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="181" column="62" selection-start-line="181" selection-start-column="62" selection-end-line="181" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentService.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="106" column="53" selection-start-line="106" selection-start-column="53" selection-end-line="106" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="39" column="53" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="237">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="88" column="78" selection-start-line="88" selection-start-column="78" selection-end-line="88" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/dao/ScoreDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1780,47 +1702,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/vo/StudentScoreVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/scoreCheckInDetail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="101" column="175" selection-start-line="101" selection-start-column="175" selection-end-line="101" selection-end-column="175" />
+        <state relative-caret-position="237">
+          <caret line="225" column="32" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/controller/OrganizationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/myScoreList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/OrganizationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        <state relative-caret-position="567">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nju/wjw/service/Impl/OrganizationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="409" column="8" selection-start-line="409" selection-start-column="8" selection-end-line="409" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#16964#16965#0" expanded="true" />
-            <element signature="e#16991#16992#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

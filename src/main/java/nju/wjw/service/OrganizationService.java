@@ -93,5 +93,5 @@ public interface OrganizationService {
      * 填写学生成绩
      * @return
      */
-    public ResultMsg setScores(List<StudentScoreVO>);
+    public ResultMsg setScores(List<StudentScoreVO> studentScoreVOs);
 }

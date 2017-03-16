@@ -82,11 +82,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="table-header clearfix">
                     <div class="id_col">学生id</div>
                     <div class="name_col">学生姓名</div>
-                    <div class="price_col"  style="width: 20%;">学生成绩等级</div>
+                    <div class="price_col"  style="width: 20%;">学生成绩登记</div>
                     <div class="price_col" style="width: 40%;">成绩备注信息</div>
                 </div>
                 <ul class="table-list">
-                    <form>
+                    <form action="/organization/scoreCheckInPost" method="post">
                     <%
                         if(scoreList != null)
                             for (int i=0;i<scoreList.size();i++) {
@@ -97,14 +97,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                         <div class="name_col"><%=c.name %></div>
 
-                        <input type="hidden" value="<%=c.sid%>" name="<%=c.sid%>">
+                        <input type="hidden" value="<%=c.scoreId%>" name="<%=i%>">
 
-                        <div class="price_col"  style="width: 20%;"><input style="color:black;" type="text" value="<%=c.score.equals("null")?"暂无得分":c.score %>" name="<%="score"+c.sid%>"></div>
+                        <div class="price_col"  style="width: 20%;"><input style="color:black;" type="text" placeholder="<%=c.score.equals("null")?"暂无得分":c.score %>" value="<%=c.score.equals("null")?"":c.score %>" name="<%="score"+i%>"></div>
 
-                        <div class="price_col"  style="width: 40%;"><input style="color:black;" type="text" value="<%=c.back==null?"暂无备注":c.back %>" name="<%="back"+c.sid%>"></div>
+                        <div class="price_col"  style="width: 40%;"><input style="color:black;" type="text" placeholder="<%=c.back==null?"暂无备注":c.back %>" value="<%=c.back==null?"":c.back %>" name="<%="back"+i%>"></div>
 
                     </li>
                     <% } %>
+                        <input type="submit" value="提交成绩" class="btn btn-primary btn-lg1 btn-block">
                     </form>
                 </ul>
             </div>

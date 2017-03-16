@@ -7,6 +7,12 @@ public class StudentScoreVO {
 
     public String sid;
 
+    public String cid;
+
+    public String scoreId;
+
+    public String courseName;
+
     public String name;
 
     public String state;

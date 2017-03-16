@@ -104,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-star"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/student/studentCardInvalid">结业成绩</a></h5>
+                        <h5><a href="/student/myScore">结业成绩</a></h5>
                         <p>学员可以查看课程结业情况与自己所选课程的成绩 </p>
                     </div>
                 </div>

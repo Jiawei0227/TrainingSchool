@@ -37,7 +37,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="/student/courseList">课程列表</a></li>
                         <li><a href="/student/myCourse">我的课程</a></li>
-                        <li><a href="/student/scoreList">成绩</a></li>
+                        <li><a href="/student/myScore">成绩</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

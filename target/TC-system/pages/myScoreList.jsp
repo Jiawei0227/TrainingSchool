@@ -20,7 +20,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>课程成绩登记</title>
+    <title>我的成绩查看</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
@@ -57,16 +57,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- banner -->
 <div class="courses_banner">
     <div class="container">
-        <h3>课程成绩等级</h3>
+        <h3>我的成绩查看</h3>
         <p class="description">
-            如下是该课程下已选的同学的成绩列表，请选择成绩登记与修改
+            如下是所选课程的成绩，请查看
         </p>
         <div class="breadcrumb1">
             <ul>
                 <li class="icon6"><a href="/">主页</a></li>
-                <li class="icon6"><a href="/organization/organizationService">机构平台管理</a></li>
-                <li class="icon6"><a href="/organization/courseConfirm">学生信息登记</a></li>
-                <li class="current-page">成绩等级</li>
+                <li class="icon6"><a href="/student/studentService">学员平台管理</a></li>
+                <li class="current-page">成绩查看</li>
             </ul>
         </div>
     </div>
@@ -80,31 +79,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="col-md-12">
             <div class="course_list">
                 <div class="table-header clearfix">
-                    <div class="id_col">学生id</div>
-                    <div class="name_col">学生姓名</div>
-                    <div class="price_col"  style="width: 20%;">学生成绩登记</div>
+                    <div class="id_col">课程id</div>
+                    <div class="name_col">课程名称</div>
+                    <div class="price_col"  style="width: 20%;">我的成绩</div>
                     <div class="price_col" style="width: 40%;">成绩备注信息</div>
                 </div>
                 <ul class="table-list">
                     <form action="/organization/scoreCheckInPost" method="post">
-                    <%
-                        if(scoreList != null)
-                            for (int i=0;i<scoreList.size();i++) {
-                                StudentScoreVO c = scoreList.get(i);
-                    %>
-                    <li class="clearfix">
-                        <div class="id_col"><%=c.sid %></div>
+                        <%
+                            if(scoreList != null)
+                                for (int i=0;i<scoreList.size();i++) {
+                                    StudentScoreVO c = scoreList.get(i);
+                        %>
+                        <li class="clearfix">
+                            <div class="id_col"><%=c.cid %></div>
 
-                        <div class="name_col"><%=c.name %></div>
+                            <div class="name_col"><%=c.courseName %></div>
 
-                        <input type="hidden" value="<%=c.scoreId%>" name="<%=i%>">
+                            <input type="hidden" value="<%=c.scoreId%>" name="<%=i%>">
 
-                        <div class="price_col"  style="width: 20%;"><input style="color:black;" type="text" placeholder="<%=c.score.equals("null")?"暂无得分":c.score %>" value="<%=c.score.equals("null")?"":c.score %>" name="<%="score"+i%>"></div>
+                            <div class="price_col"  style="width: 20%;"><%=c.score.equals("null")?"该课程暂无得分":c.score %></div>
 
-                        <div class="price_col"  style="width: 40%;"><input style="color:black;" type="text" placeholder="<%=c.back==null?"暂无备注":c.back %>" value="<%=c.back==null?"":c.back %>" name="<%="back"+i%>"></div>
+                            <div class="price_col"  style="width: 40%;"><%=c.back==null?"暂无备注":c.back %>"</div>
 
-                    </li>
-                    <% } %>
+                        </li>
+                        <% } %>
                         <input type="submit" value="提交成绩" class="btn btn-primary btn-lg1 btn-block">
                     </form>
                 </ul>
@@ -112,7 +111,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="clearfix"> </div>
     </div>
-</div>
 </div>
 <!-- FlexSlider -->
 <link href="/css/flexslider.css" rel='stylesheet' type='text/css' />

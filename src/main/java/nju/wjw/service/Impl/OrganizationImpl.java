@@ -398,6 +398,7 @@ public class OrganizationImpl implements OrganizationService {
             StudentScoreVO studentScoreVO = new StudentScoreVO();
             studentScoreVO.name = e.getStudent().getName();
             studentScoreVO.sid = e.getStudent().getSid()+"";
+            studentScoreVO.scoreId = e.getScoreId()+"";
             studentScoreVO.score = e.getScore()+"";
             studentScoreVO.back = e.getBack();
             return studentScoreVO;
@@ -406,7 +407,23 @@ public class OrganizationImpl implements OrganizationService {
     }
 
     @Override
-    public ResultMsg setScores() {
-        return null;
+    public ResultMsg setScores(List<StudentScoreVO> studentScoreVOs) {
+        try {
+            for (StudentScoreVO s : studentScoreVOs) {
+                Score score =DAOManager.scoreDao.get(Integer.parseInt(s.scoreId));
+                if(s.back ==null||s.score==null)
+                    continue;
+                score.setScore(Integer.parseInt(s.score));
+                score.setBack(s.back);
+                DAOManager.scoreDao.update(score);
+            }
+            return new ResultMsg(StateCode.SUCCESS,"成绩填写成功");
+        }catch (NumberFormatException e){
+            e.printStackTrace();
+            return new ResultMsg(StateCode.FAILURE,"成绩格式不对，请填写有效成绩");
+        }catch (Exception e){
+            e.printStackTrace();
+            return new ResultMsg(StateCode.FAILURE,"未知的异常发生，操作失败");
+        }
     }
 }

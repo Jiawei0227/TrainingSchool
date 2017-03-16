@@ -175,15 +175,25 @@ public class OrganizationController {
     public ModelAndView scoreCheckInPost(HttpServletRequest request){
         int i=0;
         List<StudentScoreVO> studentScoreVOs = new ArrayList<>();
-        while(request.getAttribute(i+"")!=null){
+        while(request.getParameter(i+"")!=null){
             StudentScoreVO studentScoreVO = new StudentScoreVO();
-            studentScoreVO.sid = (String)request.getAttribute(i+"");
-            studentScoreVO.score = (String)request.getAttribute("score"+i);
-            studentScoreVO.back = (String)request.getAttribute("back"+i);
+            studentScoreVO.scoreId = (String)request.getParameter(i+"");
+            studentScoreVO.score = (String)request.getParameter("score"+i);
+            studentScoreVO.back = (String)request.getParameter("back"+i);
             studentScoreVOs.add(studentScoreVO);
             i++;
+            System.out.println(i);
         }
+        ResultMsg re = organizationService.setScores(studentScoreVOs);
+        ModelAndView md = new ModelAndView("info");
+        if(re.getState()== StateCode.SUCCESS){
+            md.addObject("info",re.getInfo());
+            md.addObject("description","操作成功");
+        }else{
+            md.addObject("info",re.getInfo());
+            md.addObject("description","操作失败");
 
-        return null;
+        }
+        return md;
     }
 }

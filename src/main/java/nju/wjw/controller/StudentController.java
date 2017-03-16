@@ -84,4 +84,13 @@ public class StudentController {
         return modelAndView;
     }
 
+    @RequestMapping("/student/myScore")
+    public ModelAndView myScoreList(HttpSession session){
+        StudentVO studentVO = (StudentVO) session.getAttribute("studentVO");
+        ModelAndView modelAndView = new ModelAndView("myScoreList");
+        modelAndView.addObject("scoreList",studentService.getMyScore(studentVO.studentID));
+        return modelAndView;
+
+    }
+
 }

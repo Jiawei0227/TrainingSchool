@@ -32,6 +32,12 @@ public class ScoreDao extends BaseDao<Score,Integer> {
         String hql = "from Score s where s.course.cid=? and s.state=?";
         return getListByHQL(hql,cid, CourseStudentState.PASSED);
     }
+
+    public List<Score> getSuccessScoreByStudentId(int sid){
+        String hql = "from Score s where s.student.sid=? and s.state=?";
+        return getListByHQL(hql,sid, CourseStudentState.PASSED);
+    }
+
     public List<Score> getScoreByStudentId(int sid){
         String hql = "from Score s where s.student.sid=? and s.state!=?";
         return getListByHQL(hql,sid,CourseStudentState.NOTJOINED);

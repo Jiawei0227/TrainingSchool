@@ -213,6 +213,25 @@ public class StudentServiceImpl implements StudentService {
         }).collect(Collectors.toList());
     }
 
+    @Override
+    public List<StudentScoreVO> getMyScore(String sid) {
+        List<Score> scores = DAOManager.scoreDao.getSuccessScoreByStudentId(Integer.parseInt(sid));
+        return scores.stream().map(e->{
+            StudentScoreVO s = new StudentScoreVO();
+            Course c = e.getCourse();
+            s.state = e.getState();
+            s.score = e.getScore()+"";
+            s.back = e.getBack();
+            s.courseName = c.getName();
+            s.scoreId = e.getScoreId()+"";
+            s.cid = c.getCid()+"";
+
+            return s;
+
+        }).collect(Collectors.toList());
+
+    }
+
 
     public ResultMsg studentRegister(StudentVO student){
         Student s = new Student();

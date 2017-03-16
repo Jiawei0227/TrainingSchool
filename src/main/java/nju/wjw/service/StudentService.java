@@ -60,4 +60,11 @@ public interface StudentService {
      */
     public List<HistoryVO> getHistory(String sid);
 
+    /**
+     * 获取学生成绩列表
+     * @param sid
+     * @return
+     */
+    public List<StudentScoreVO> getMyScore(String sid);
+
 }
