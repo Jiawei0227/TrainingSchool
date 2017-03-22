@@ -3,6 +3,7 @@ package nju.wjw.util.scheduletask;
 import java.time.LocalDateTime;
 
 /**
+ * 任务类
  * Created by Daniel on 2017/2/20.
  */
 public class TaskEntity {

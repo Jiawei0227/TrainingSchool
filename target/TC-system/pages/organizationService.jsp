@@ -84,7 +84,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="service_1-right">
                         <h5><a href="/organization/updateCourseList">班级信息修改</a></h5>
-                        <p>修改班级上课信息，需要向经理发送申请并经过审核</p>
+                        <p>修改班级上课信息，成绩登记等</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="service_1-right">
                         <h5><a href="/organization/courseConfirm">学员信息登记</a></h5>
-                        <p>审批学员信息，成绩管理，学员管理</p>
+                        <p>审批学员信息，学员管理</p>
                     </div>
                 </div>
             </div>

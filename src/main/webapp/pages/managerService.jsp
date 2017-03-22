@@ -72,8 +72,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-users"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/managerPlatform/CheckApply">审批机构开班</a></h5>
-                        <p>机构发起开办申请，需要向经理发送申请并进行审核 </p>
+                        <h5><a href="/managerPlatform/CheckApply">审批机构开班/修改</a></h5>
+                        <p>机构发起开班申请或者修改班级信息申请，需要向经理发送申请并进行审核 </p>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-phone"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/student/studentCardValid">机构支付结算</a></h5>
-                        <p>将会员卡支付结算给各机构，包括退课结算</p>
+                        <h5><a href="/managerPlatform/organizationList">机构管理</a></h5>
+                        <p>将会员卡支付结算给各机构，以及机构、课程详细信息查看</p>
                     </div>
                 </div>
             </div>
@@ -97,8 +97,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-star"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/student/studentCardInvalid">班级信息修改</a></h5>
-                        <p>修改班级的申请审批</p>
+                        <h5><a href="/managerPlatform/studentList">学员信息查看</a></h5>
+                        <p>查看学员信息列表,以及学员的选课\成绩等情况</p>
                     </div>
                 </div>
             </div>
@@ -108,8 +108,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-globe"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="#">TR统计信息查看</a></h5>
-                        <p>查看精英教育统计情况，包括各机构招生以及学员学习等 </p>
+                        <h5><a href="/managerPlatform/statistic">TR统计信息查看</a></h5>
+                        <p>查看精英教育统计情况，包括ELITE的资金流动情况等 </p>
                     </div>
                 </div>
             </div>

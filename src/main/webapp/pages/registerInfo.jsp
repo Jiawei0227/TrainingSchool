@@ -63,7 +63,7 @@
                 <li><a href="#">2. 快速激活学员卡</a></li>
                 <li><a href="#">3. 选择课程进行学习</a></li>
             </ul>
-            <a href="/student/studentLogin" class="radial_but">学院登录</a>
+            <a href="/student/studentLogin" class="radial_but">学员登录</a>
             <a href="/organization/Login" class="radial_but">机构登录</a>
         </div>
         <div class="col-md-6">

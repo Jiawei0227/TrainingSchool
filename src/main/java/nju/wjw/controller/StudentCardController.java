@@ -105,5 +105,58 @@ public class StudentCardController {
         return md;
     }
 
+    @RequestMapping("/student/points")
+    public ModelAndView points(HttpSession session){
+        StudentVO student = (StudentVO)session.getAttribute("studentVO");
+        ModelAndView m = new ModelAndView("levelCheck");
+        m.addObject("studentCardVO",studentCardService.studentCardVO(student.studentID));
+        return m;
+    }
+
+    @RequestMapping(value = "/student/points2money",method = RequestMethod.POST)
+    public ModelAndView points2Money(String points,HttpSession session){
+        StudentVO student = (StudentVO)session.getAttribute("studentVO");
+        ResultMsg re = studentCardService.points2Money(points,student.studentID);
+        ModelAndView md = new ModelAndView("info");
+        if(re.getState()== StateCode.SUCCESS){
+            md.addObject("info",re.getInfo());
+            md.addObject("description","操作成功");
+        }else{
+            md.addObject("info",re.getInfo());
+            md.addObject("description","操作失败");
+
+        }
+        return md;
+    }
+
+    @RequestMapping(value = "/student/updatePersonalInfoPost",method = RequestMethod.POST)
+    public ModelAndView updatePersonalInfoPost(HttpSession session,String name,String age,String password,String email){
+        ModelAndView md = new ModelAndView("info");
+        StudentVO studentVO = (StudentVO) session.getAttribute("studentVO");
+        studentVO.name=name;
+        studentVO.age =age;
+        studentVO.password =password;
+        studentVO.email =email;
+        session.setAttribute("studentVO",studentVO);
+        ResultMsg re = studentCardService.updatePersonalInfo(studentVO);
+        if(re.getState()== StateCode.SUCCESS){
+            md.addObject("info",re.getInfo());
+            md.addObject("description","操作成功");
+        }else{
+            md.addObject("info",re.getInfo());
+            md.addObject("description","操作失败");
+
+        }
+        return md;
+    }
+
+    @RequestMapping("/student/updatePersonalInfo")
+    public ModelAndView updatePersonalInfo(HttpSession session){
+        ModelAndView md = new ModelAndView("updatePersonInfo");
+        StudentVO student = (StudentVO)session.getAttribute("studentVO");
+        md.addObject("studentVO",student);
+        md.addObject("studentCardVO",studentCardService.studentCardVO(student.studentID));
+        return md;
+    }
 
 }

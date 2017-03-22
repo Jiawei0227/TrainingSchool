@@ -23,4 +23,9 @@ public class HistoryDao extends BaseDao<History,Integer> {
 
     }
 
+    public List<History> getHistoryByMid(int mid){
+        String hql = "from History h where h.manager.id=? order by h.createdAt desc";
+        return getListByHQL(hql,mid);
+    }
+
 }

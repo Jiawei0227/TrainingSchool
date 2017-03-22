@@ -1,5 +1,6 @@
-<%@ page import="nju.wjw.vo.StudentVO" %>
-<%@ page import="nju.wjw.vo.OrganizationVO" %><%--
+<%@ page import="nju.wjw.vo.ManagerVO" %>
+<%@ page import="nju.wjw.vo.OrganizationVO" %>
+<%@ page import="nju.wjw.vo.StudentVO" %><%--
   Created by IntelliJ IDEA.
   User: wangjiawei
   Date: 2017/2/13
@@ -36,12 +37,12 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>课程</span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/student/courseList">课程列表</a></li>
-                        <li><a href="/student/myCourse">我的课程</a></li>
+                        <li><a href="/student/myCourseList">我的课程</a></li>
                         <li><a href="/student/myScore">成绩</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="/student/studentService"><i class="fa fa-calendar"></i><span>服务</span></a>
+                    <a href="/student/studentCardService"><i class="fa fa-calendar"></i><span>学员卡服务</span></a>
                 </li>
 
                     <%
@@ -49,10 +50,32 @@
                             OrganizationVO o = (OrganizationVO)session.getAttribute("organizationVO");
                     %>
                     <a href="/organization/organizationService"><i class="fa fa-user"></i><span><%=o.name %></span></a>
+                </li>
+
                 <li class="dropdown">
                     <a href="/organization/Logout"><i class="fa fa-times"></i><span>登出</span></a>
                 <li class="dropdown">
-                    <%}%>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>服务</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/organization/newCourseApply">开班申请</a></li>
+                        <li><a href="/organization/courseConfirm">学员信息登记</a></li>
+                        <li><a href="/organization/myHistory">统计信息查看</a></li>
+                    </ul>
+                    <%} else if(session.getAttribute("managerVO")!=null){
+                            ManagerVO managerVO = (ManagerVO)session.getAttribute("managerVO");
+                    %>
+                        <a href="/managerPlatform/managerService"><i class="fa fa-user"></i><span><%=managerVO.name %></span></a>
+                <li class="dropdown">
+                    <a href="/managerPlatform/Logout"><i class="fa fa-times"></i><span>登出</span></a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>服务</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/managerPlatform/studentList">学员信息查看</a></li>
+                        <li><a href="/managerPlatform/organizationList">机构信息查看</a></li>
+                        <li><a href="/managerPlatform/statistic">统计信息查看</a></li>
+                    </ul>
+
+                    <% } %>
                 </li>
 
 

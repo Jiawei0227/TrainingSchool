@@ -75,6 +75,7 @@ public class OrganizationController {
     @RequestMapping(value = "/organization/courseConfirmDetail")
     public ModelAndView courseDetailConfirm(String id){
         ModelAndView modelAndView = new ModelAndView("courseConfirmDetail");
+        modelAndView.addObject("managerAsk","1");
         modelAndView.addObject("courseConfirmDetailViewVO",organizationService.getCourseConfirm(id));
         return modelAndView;
     }

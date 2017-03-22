@@ -1,7 +1,7 @@
 package nju.wjw.service;
 
 import nju.wjw.util.ResultMsg;
-import nju.wjw.vo.CourseVO;
+import nju.wjw.vo.*;
 
 import java.util.List;
 
@@ -17,5 +17,17 @@ public interface ManagerService {
     public CourseVO getCourse(String id);
 
     public ResultMsg setCourseApply(String id,int isPassed);
+
+    public List<OrganizationVO> getOrganizationList();
+
+    public OrganizationVO getOrganizationDetail(String id);
+
+    public ResultMsg checkInAccount(String oid);
+
+    public List<StudentVO> getStudentList();
+
+    public StatisticsVO getStatistics();
+
+    public List<HistoryVO> getHistoryVO();
 
 }

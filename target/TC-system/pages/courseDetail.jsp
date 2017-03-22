@@ -2,6 +2,7 @@
 <%@ page import="nju.wjw.vo.CourseVO" %>
 <%@ page import="nju.wjw.vo.OrganizationVO" %>
 <%@ page import="nju.wjw.util.CourseStudentState" %>
+<%@ page import="nju.wjw.util.StudentLevel" %>
 <%--
   Created by IntelliJ IDEA.
   User: wangjiawei
@@ -68,7 +69,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <% CourseDetailViewVO courseDetailViewVO = (CourseDetailViewVO)request.getAttribute("courseDetailViewVO");
     CourseVO course = courseDetailViewVO.courseVO;
-    OrganizationVO organizationVO = courseDetailViewVO.organizationVO; %>
+    OrganizationVO organizationVO = courseDetailViewVO.organizationVO;
+    StudentLevel studentLevel= courseDetailViewVO.studentLevel;
+    double pp = 0.0;
+    switch (studentLevel){
+        case STAR:pp=1;break;
+        case MONTH:pp=0.9;break;
+        case SUN: pp=0.8;break;
+        case DIAMOND: pp =0.7;break;
+    }
+%>
 
 <div class="courses_box1">
     <div class="container">
@@ -174,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
                         <div class="panel-body">
-                            课程价格： <%=course.price %> RMB
+                            课程价格： <%=pp*Double.parseDouble(course.price) %> RMB  (会员折后价)
                         </div>
                     </div>
                 </div>
@@ -192,15 +202,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <form class="comment-form" style="text-align: center" method="post" action="/student/addCourse">
                 <input value="<%=course.id%>" type="hidden" name="cid"/>
                 <% if(courseDetailViewVO.isPastDue){ %>
-                <h4>该课程已经过了最后期限时间，不能再报名了，请关注本网站其他课程</h4>
+                <h4>该课程已经过了最后报名期限时间，不能再报名了，请关注本网站其他课程</h4>
                 <% }else{
                     if(courseDetailViewVO.state.equals(CourseStudentState.PASSED)){ %>
                         <h4>您已选择了该课程，请依照我们的通知在规定时间完成课程并考试</h4>
                         <input name="submit" type="submit" id="submit" class="submit_1 btn btn-primary btn-block" value="申请退出课程">
                  <%   }else if(courseDetailViewVO.state.equals(CourseStudentState.WAITING)) { %>
-                        <h4>您已提交申请，正在审核中，请等待审核</h4>
+                        <h4>您已提交预定申请，正在审核中，请等待审核</h4>
                  <%   }else if(courseDetailViewVO.state.equals(CourseStudentState.FAILURED)){ %>
-                        <h4>您的课程申请审核没有通过，请检查账户余额或尝试联系机构了解详情</h4>
+                        <h4>您的课程预定审核没有通过，请检查账户余额或尝试联系机构了解详情</h4>
                         <input name="submit" type="submit" id="submit" class="submit_1 btn btn-primary btn-block" value="重新申请加入课程">
                  <%   }else if(courseDetailViewVO.state.equals(CourseStudentState.NOTJOINED)){ %>
                         <h4>您尚未加入该课程</h4>

@@ -1,5 +1,7 @@
 package nju.wjw.entity;
 
+import nju.wjw.util.StudentLevel;
+
 import javax.persistence.*;
 import java.sql.Timestamp;
 
@@ -45,9 +47,52 @@ public class StudentCard {
     private Integer memberValidity;
 
     /**
-     * 会员卡等级
+     * 会员卡总消费
      */
     private Double level;
+
+    /**
+     * 会员卡积分
+     */
+    private Double points;
+
+    /**
+     * 获取积分等级
+     * @return
+     */
+    public StudentLevel getRank(){
+        if(level<5000)
+            return StudentLevel.STAR;
+        else if(level>=5000&&level<10000)
+            return StudentLevel.MONTH;
+        else if(level>=10000&&level<20000)
+            return StudentLevel.SUN;
+        else
+            return StudentLevel.DIAMOND;
+
+    }
+
+    public String getAnotherLevel(){
+        Double left;
+        if(level<5000)
+            left = 5000-level;
+        else if(level>=5000&&level<10000)
+            left = 10000-level;
+        else if(level>=10000&&level<20000)
+            left = 20000 - level;
+        else
+            left = 0.0;
+
+        return left+"";
+    }
+
+    public Double getPoints() {
+        return points;
+    }
+
+    public void setPoints(Double points) {
+        this.points = points;
+    }
 
     public Integer getSid() {
         return sid;

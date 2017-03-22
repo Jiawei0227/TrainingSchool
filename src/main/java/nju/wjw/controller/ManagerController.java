@@ -1,9 +1,12 @@
 package nju.wjw.controller;
 
 import nju.wjw.service.ManagerService;
+import nju.wjw.service.OrganizationService;
+import nju.wjw.service.StudentService;
 import nju.wjw.util.ResultMsg;
 import nju.wjw.util.StateCode;
 import nju.wjw.vo.CourseVO;
+import nju.wjw.vo.StudentCourseVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +23,10 @@ public class ManagerController {
 
     @Autowired
     ManagerService managerService;
+    @Autowired
+    OrganizationService organizationService;
+    @Autowired
+    StudentService studentService;
 
     @RequestMapping("/managerPlatform/managerService")
     public ModelAndView managerService(){
@@ -78,4 +85,74 @@ public class ManagerController {
             return m;
         }
     }
+
+    @RequestMapping(value="/managerPlatform/organizationList")
+    public ModelAndView organizationList(){
+        ModelAndView m = new ModelAndView("organizationList");
+        m.addObject("organizationList",managerService.getOrganizationList());
+        return m;
+    }
+
+    @RequestMapping("/managerPlatform/organizationDetail")
+    public ModelAndView organizationDetail(String id){
+        ModelAndView m = new ModelAndView("organizationDetail");
+        m.addObject("organizationVO",managerService.getOrganizationDetail(id));
+        return m;
+    }
+
+    @RequestMapping(value = "/managerPlatform/checkInAccountPost",method = RequestMethod.POST)
+    public ModelAndView checkInAccountPost(String oid){
+        ResultMsg re = managerService.checkInAccount(oid);
+        ModelAndView md = new ModelAndView("info");
+        if(re.getState()== StateCode.SUCCESS){
+            md.addObject("info",re.getInfo());
+            md.addObject("description","提交成功");
+        }else{
+            md.addObject("info",re.getInfo());
+            md.addObject("description","操作失败");
+
+        }
+        return md;
+    }
+
+    @RequestMapping("/managerPlatform/courseDetail")
+    public ModelAndView courseDetail(String id){
+        ModelAndView modelAndView = new ModelAndView("courseConfirmDetail");
+        modelAndView.addObject("courseConfirmDetailViewVO",organizationService.getCourseConfirm(id));
+        return modelAndView;
+    }
+
+    @RequestMapping("/managerPlatform/studentList")
+    public ModelAndView studentList(){
+        ModelAndView m = new ModelAndView("studentList");
+        m.addObject("studentList",managerService.getStudentList());
+        return m;
+    }
+
+    @RequestMapping("managerPlatform/studentDetail")
+    public ModelAndView studentDetail(String id){
+        ModelAndView m = new ModelAndView("myCourseList");
+        m.addObject("managerAsk","1");
+        List<StudentCourseVO> courseList = studentService.getStudentCourse(id);
+        m.addObject("courseList",courseList);
+        return m;
+    }
+
+    @RequestMapping("managerPlatform/studentScore")
+    public ModelAndView studentScore(String id){
+        ModelAndView modelAndView = new ModelAndView("myScoreList");
+        modelAndView.addObject("scoreList",studentService.getMyScore(id));
+        modelAndView.addObject("managerAsk","1");
+        return modelAndView;
+    }
+
+    @RequestMapping("managerPlatform/statistic")
+    public ModelAndView statisticView(){
+        ModelAndView m = new ModelAndView("statisticView");
+        m.addObject("statisticsVO",managerService.getStatistics());
+        m.addObject("historyVO",managerService.getHistoryVO());
+        return m;
+    }
+
+
 }

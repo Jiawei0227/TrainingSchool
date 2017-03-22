@@ -26,9 +26,21 @@ public class History {
     @JoinColumn(name="organizationId",nullable = true)
     private Organization organization;
 
+    @ManyToOne
+    @JoinColumn(name="managerId",nullable = true)
+    private Manager manager;
+
     private Timestamp createdAt;
 
     private String action;
+
+    public Manager getManager() {
+        return manager;
+    }
+
+    public void setManager(Manager manager) {
+        this.manager = manager;
+    }
 
     public Integer getHisId() {
         return hisId;

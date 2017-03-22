@@ -80,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="form-group">
                 <input type="submit" class="btn btn-primary btn-lg1 btn-block" name="submit" value="注册">
             </div>
-            <p>已经拥有学员卡了? <a href="login.html">登录</a></p>
+            <p>已经拥有学员卡了? <a href="/student/studentLogin">登录</a></p>
         </form>
     </div>
 </div>

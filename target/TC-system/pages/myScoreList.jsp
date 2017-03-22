@@ -55,6 +55,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <jsp:include page="header.jsp" />
 <!-- banner -->
+
+<% List<StudentScoreVO> scoreList = (List<StudentScoreVO>) request.getAttribute("scoreList");
+    String managerAsk = (String) request.getAttribute("managerAsk");
+    if(managerAsk==null){
+%>
 <div class="courses_banner">
     <div class="container">
         <h3>我的成绩查看</h3>
@@ -70,10 +75,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
 </div>
+<% }else{ %>
+<div class="courses_banner">
+    <div class="container">
+        <h3>学员成绩查看</h3>
+        <p class="description">
+            如下是该学员所选课程的成绩，请查看
+        </p>
+        <div class="breadcrumb1">
+            <ul>
+                <li class="icon6"><a href="/">主页</a></li>
+                <li class="icon6"><a href="/managerPlatform/managerService">经理平台管理</a></li>
+                <li class="icon6"><a href="/managerPlatform/studentList">学生信息列表</a></li>
+                <li class="current-page">成绩查看</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<% }%>
 <!-- //banner -->
 
-<% List<StudentScoreVO> scoreList = (List<StudentScoreVO>) request.getAttribute("scoreList");
-%>
+
 <div class="courses_box1">
     <div class="container">
         <div class="col-md-12">
@@ -81,11 +103,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="table-header clearfix">
                     <div class="id_col">课程id</div>
                     <div class="name_col">课程名称</div>
-                    <div class="price_col"  style="width: 20%;">我的成绩</div>
+                    <div class="price_col"  style="width: 20%;">成绩</div>
                     <div class="price_col" style="width: 40%;">成绩备注信息</div>
                 </div>
                 <ul class="table-list">
-                    <form action="/organization/scoreCheckInPost" method="post">
                         <%
                             if(scoreList != null)
                                 for (int i=0;i<scoreList.size();i++) {
@@ -104,8 +125,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                         </li>
                         <% } %>
-                        <input type="submit" value="提交成绩" class="btn btn-primary btn-lg1 btn-block">
-                    </form>
                 </ul>
             </div>
         </div>

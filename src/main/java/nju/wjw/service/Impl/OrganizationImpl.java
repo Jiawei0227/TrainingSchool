@@ -6,6 +6,7 @@ import nju.wjw.service.OrganizationService;
 import nju.wjw.util.CourseStudentState;
 import nju.wjw.util.ResultMsg;
 import nju.wjw.util.StateCode;
+import nju.wjw.util.StudentLevel;
 import nju.wjw.vo.*;
 import org.springframework.stereotype.Repository;
 
@@ -197,6 +198,14 @@ public class OrganizationImpl implements OrganizationService {
             Score score = DAOManager.scoreDao.getScoreByStuIdAndCourseId(Integer.parseInt(sid), Integer.parseInt(cid));
             Course course = score.getCourse();
             Student student = score.getStudent();
+            StudentLevel studentLevel = student.getStudentCard().getRank();
+            double zhekou = 0.0;
+            switch (studentLevel){
+                case STAR:zhekou = 1.0;break;
+                case MONTH:zhekou = 0.9;break;
+                case SUN:zhekou = 0.8;break;
+                case DIAMOND:zhekou = 0.7;break;
+            }
             double price = course.getPrice();
 
             if(passCode.equals("0")){
@@ -215,7 +224,7 @@ public class OrganizationImpl implements OrganizationService {
                 return new ResultMsg(StateCode.SUCCESS,"拒绝通过.");
             }
 
-            if(student.getStudentCard().getAccountBalance()<price){
+            if(student.getStudentCard().getAccountBalance()<price*zhekou){
                 score.setState(CourseStudentState.FAILURED);
                 DAOManager.scoreDao.update(score);
 
@@ -231,18 +240,23 @@ public class OrganizationImpl implements OrganizationService {
             }
 
             StudentCard studentCard = student.getStudentCard();
-            studentCard.setAccountBalance(studentCard.getAccountBalance()-course.getPrice());
+            studentCard.setAccountBalance(studentCard.getAccountBalance()-course.getPrice()*zhekou);
             DAOManager.studentCardDao.update(studentCard);
 
             history.setOrganization(course.getOrganization());
-            history.setAction("通过了学生"+student.getName()+"参加"+course.getName()+"的申请,扣款成功，机构获得资金"+course.getPrice()+"元。");
+            history.setAction("通过了学生"+student.getName()+"参加"+course.getName()+"的申请,扣款成功，机构获得资金"+course.getPrice()*zhekou+"元。");
             DAOManager.historyDao.save(history);
 
+            Manager manager = DAOManager.managerDao.getManager();
+            Account mAccount = manager.getAccount();
+            mAccount.setBalance(mAccount.getBalance()+course.getPrice()*zhekou);
+            DAOManager.accountDao.update(mAccount);
+
             Organization organization = course.getOrganization();
-            organization.setMoney(organization.getMoney()+course.getPrice());
+            organization.setMoney(organization.getMoney()+course.getPrice()*zhekou);
             DAOManager.organizationDao.update(organization);
             history2.setStudent(student);
-            history2.setAction("通过了"+student.getName()+"参加"+course.getName()+"的申请扣款成功，扣除资金"+course.getPrice()+"元。");
+            history2.setAction("通过了"+student.getName()+"参加"+course.getName()+"的申请扣款成功，扣除资金"+course.getPrice()*zhekou+"元。");
             DAOManager.historyDao.save(history2);
 
             score.setState(CourseStudentState.PASSED);
@@ -289,27 +303,35 @@ public class OrganizationImpl implements OrganizationService {
             }
             Student student = studentCard.getStudent();
             Score score = DAOManager.scoreDao.getScoreByStuIdAndCourseId(student.getSid(),course.getCid());
+            double zhekou = 0.0;
+            switch (studentCard.getRank()){
+                case STAR:zhekou = 1.0;break;
+                case MONTH:zhekou = 0.9;break;
+                case SUN:zhekou = 0.8;break;
+                case DIAMOND:zhekou = 0.7;break;
+            }
+
             //检查是否已经添加过该学员
             if(score!= null&&score.getState().equals(CourseStudentState.PASSED)){
                 return new ResultMsg(StateCode.FAILURE,"添加失败，该学员已经在该班级中");
             }else{
                 //判断是否钱足够
-                if(student.getStudentCard().getAccountBalance()>=course.getPrice()){
+                if(student.getStudentCard().getAccountBalance()>=course.getPrice()*zhekou){
 
-                    studentCard.setAccountBalance(studentCard.getAccountBalance()-course.getPrice());
+                    studentCard.setAccountBalance(studentCard.getAccountBalance()-course.getPrice()*zhekou);
                     DAOManager.studentCardDao.update(studentCard);
 
                     history.setOrganization(course.getOrganization());
-                    history.setAction("通过了学生"+student.getName()+"参加"+course.getName()+"的申请,扣款成功，机构获得资金"+course.getPrice()+"元。");
+                    history.setAction("通过了学生"+student.getName()+"参加"+course.getName()+"的申请,扣款成功，机构获得资金"+course.getPrice()*zhekou+"元。");
                     DAOManager.historyDao.save(history);
 
                     Organization organization = course.getOrganization();
-                    organization.setMoney(organization.getMoney()+course.getPrice());
+                    organization.setMoney(organization.getMoney()+course.getPrice()*zhekou);
                     DAOManager.organizationDao.update(organization);
                     History history2 = new History();
                     history2.setCreatedAt(new Timestamp(System.currentTimeMillis()));
                     history2.setStudent(student);
-                    history2.setAction("成功加入课程"+course.getName()+"，扣款成功，扣除资金"+course.getPrice()+"元。");
+                    history2.setAction("成功加入课程"+course.getName()+"，扣款成功，扣除资金"+course.getPrice()*zhekou+"元。");
                     DAOManager.historyDao.save(history2);
 
                     if(score!=null) {

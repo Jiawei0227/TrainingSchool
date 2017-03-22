@@ -9,4 +9,12 @@ public class StudentCardVO {
 
     public String time;
 
+    public String level;
+
+    public String rank;
+
+    public String points;
+
+    public String balance;
+
 }

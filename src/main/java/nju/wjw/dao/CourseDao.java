@@ -22,4 +22,8 @@ public class CourseDao extends BaseDao<Course,Integer> {
         return getListByHQL(hql);
     }
 
+    public String getCourseNumber(){
+        return countByHql("select count(*) from Course").toString();
+    }
+
 }

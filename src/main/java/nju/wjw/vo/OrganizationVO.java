@@ -1,7 +1,5 @@
 package nju.wjw.vo;
 
-import nju.wjw.entity.Course;
-
 import java.util.List;
 
 /**
@@ -17,9 +15,13 @@ public class OrganizationVO {
 
     public String password;
 
+    public String money;
+
     public String email;
 
-    public List<Course> courseList;
+    public List<CourseVO> courseList;
+
+    public String courseNumber;
 
     public String account_id;
 

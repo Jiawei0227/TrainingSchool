@@ -8,6 +8,12 @@
     <servlet-name>spring-dispatcher</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   </servlet>
+  
+  <servlet>
+    <servlet-name>StartUpServlet</servlet-name>
+    <servlet-class>nju.wjw.servlet.StudentCardCheckServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>spring-dispatcher</servlet-name>

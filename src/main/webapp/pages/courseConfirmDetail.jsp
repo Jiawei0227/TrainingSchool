@@ -54,6 +54,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <jsp:include page="header.jsp" />
 <!-- banner -->
+<%
+  CourseConfirmDetailViewVO courseConfirmDetailViewVO = (CourseConfirmDetailViewVO)request.getAttribute("courseConfirmDetailViewVO");
+    CourseVO course = courseConfirmDetailViewVO.courseVO;
+    OrganizationVO organizationVO = courseConfirmDetailViewVO.organizationVO;
+    List<StudentScoreVO> studentScoreVOs = courseConfirmDetailViewVO.studentScoreVOs;
+    String managerAsk = (String)request.getAttribute("managerAsk");
+    if(managerAsk==null){
+%>
 <div class="courses_banner">
     <div class="container">
         <h3>课程选课信息确认</h3>
@@ -70,13 +78,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
 </div>
+<% }else{%>
+<div class="courses_banner">
+    <div class="container">
+        <h3>课程详细信息查看</h3>
+        <p class="description">
+            如下是该课程的详细信息
+        </p>
+        <div class="breadcrumb1">
+            <ul>
+                <li class="icon6"><a href="/">主页</a></li>
+                <li class="icon6"><a href="/managerPlatform/managerService">经理服务平台</a></li>
+                <li class="icon6"><a href="/managerPlatform/organizationList">机构信息列表</a></li>
+                <li class="icon6"><a href="/managerPlatform/organizationDetail?id=<%=organizationVO.id%>>">机构详细信息</a></li>
+                <li class="current-page">课程详细信息</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<%}%>
 <!-- //banner -->
 
-<%  CourseConfirmDetailViewVO courseConfirmDetailViewVO = (CourseConfirmDetailViewVO)request.getAttribute("courseConfirmDetailViewVO");
-    CourseVO course = courseConfirmDetailViewVO.courseVO;
-    OrganizationVO organizationVO = courseConfirmDetailViewVO.organizationVO;
-    List<StudentScoreVO> studentScoreVOs = courseConfirmDetailViewVO.studentScoreVOs;
-%>
 
 <div class="courses_box1">
     <div class="container">

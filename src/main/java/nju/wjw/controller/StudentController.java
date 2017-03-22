@@ -45,6 +45,7 @@ public class StudentController {
         StudentVO stuVO = (StudentVO)session.getAttribute("studentVO");
         String stuId = stuVO.studentID;
         CourseDetailViewVO re = studentService.getCoursesDetail(id,stuId);
+        re.studentLevel = stuVO.level;
         modelAndView.addObject("courseDetailViewVO",re);
 
         return modelAndView;
@@ -92,5 +93,6 @@ public class StudentController {
         return modelAndView;
 
     }
+
 
 }

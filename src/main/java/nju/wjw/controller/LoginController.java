@@ -196,4 +196,10 @@ public class LoginController {
         return "organizationlogin";
     }
 
+    @RequestMapping(value = "/managerPlatform/Logout")
+    public String managerPlatform(HttpSession session){
+        session.invalidate();
+        return "managerLogin";
+    }
+
 }

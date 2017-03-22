@@ -6,6 +6,7 @@ import nju.wjw.service.StudentService;
 import nju.wjw.util.CourseStudentState;
 import nju.wjw.util.ResultMsg;
 import nju.wjw.util.StateCode;
+import nju.wjw.util.StudentLevel;
 import nju.wjw.vo.*;
 import org.springframework.stereotype.Service;
 
@@ -33,6 +34,9 @@ public class StudentServiceImpl implements StudentService {
                 st.studentID = ss.getStudent().getSid()+"";
                 st.studentCardID = ss.toCardFormat();
                 st.balance = ss.getAccountBalance()+"";
+                st.level = ss.getRank();
+                st.email = ss.getStudent().getEmail();
+                st.password = ss.getPassword();
                 return new ResultMsg(StateCode.SUCCESS, st);
             } else
                 return new ResultMsg(StateCode.FAILURE, "您输入的密码有误，请尝试重新输入");
@@ -108,6 +112,11 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public ResultMsg addCourse(String cid, String sid) {
         Student student = DAOManager.studentDao.get(Integer.parseInt(sid));
+
+        if(student.getStudentCard().getMemberValidity()==0)
+            return new ResultMsg(StateCode.FAILURE,"学员卡尚未进行激活，不能进行此操作");
+
+
         Course course = DAOManager.courseDao.get(Integer.parseInt(cid));
         Score score = DAOManager.scoreDao.getScoreByStuIdAndCourseId(Integer.parseInt(sid),Integer.parseInt(cid));
         if(score!=null && score.getState().equals(CourseStudentState.PASSED)) {
@@ -119,11 +128,45 @@ public class StudentServiceImpl implements StudentService {
                 return new ResultMsg(StateCode.FAILURE,"退课失败，异常发生！");
             }
 
+            Date date = course.getStartTime();
+            Date today = new Date(System.currentTimeMillis());
             History history = new History();
             history.setStudent(student);
             history.setCreatedAt(new Timestamp(System.currentTimeMillis()));
-            history.setAction("进行了退课操作，退出了课程"+course.getName()+",课程编号："+course.getCid());
+
+            History history2 = new History();
+            history2.setOrganization(course.getOrganization());
+            history2.setCreatedAt(new Timestamp(System.currentTimeMillis()));
+            //中途退课
+            StudentCard studentCard = student.getStudentCard();
+            StudentLevel studentLevel = student.getStudentCard().getRank();
+            double zhekou = 0.0;
+            switch (studentLevel){
+                case STAR:zhekou = 1.0;break;
+                case MONTH:zhekou = 0.9;break;
+                case SUN:zhekou = 0.8;break;
+                case DIAMOND:zhekou = 0.7;break;
+            }
+            Organization organization = course.getOrganization();
+            if(today.after(date)){
+                //退款一半
+                history.setAction("进行了中途退出课程操作，退出了课程"+course.getName()+",课程编号："+course.getCid()+"，由于课程已经开始，因此只退还课程金额一半");
+                history2.setAction("学员卡为"+studentCard.toCardFormat()+"的学员进行了中途退出课程操作，退出了课程"+course.getName()+",课程编号："+course.getCid()+"，由于课程已经开始，因此只退还课程金额一半");
+                studentCard.setAccountBalance(studentCard.getAccountBalance()+course.getPrice()*0.5*zhekou);
+                organization.setMoney(organization.getMoney()-course.getPrice()*0.5*zhekou);
+            }else {
+                //退全部
+                history.setAction("进行了退订课程操作，退出了课程" + course.getName() + ",课程编号：" + course.getCid()+",由于课程尚未开始，全额进行退款.");
+                history2.setAction("学员卡为"+studentCard.toCardFormat()+"的学员进行了退订课程操作，退出了课程" + course.getName() + ",课程编号：" + course.getCid()+",由于课程尚未开始，全额进行退款.");
+                studentCard.setAccountBalance(studentCard.getAccountBalance()+course.getPrice()*zhekou);
+                organization.setMoney(organization.getMoney()-course.getPrice()*zhekou);
+            }
+            DAOManager.studentCardDao.update(studentCard);
+            DAOManager.organizationDao.update(organization);
+
             DAOManager.historyDao.save(history);
+            DAOManager.historyDao.save(history2);
+
 
             return new ResultMsg(StateCode.SUCCESS,"退课成功！");
         }else if(score!=null && score.getState().equals(CourseStudentState.NOTJOINED)){
@@ -245,7 +288,9 @@ public class StudentServiceImpl implements StudentService {
         studentCard.setPassword(student.password);
         studentCard.setAccountBalance(0.0);
         studentCard.setLevel(0.0);
+        studentCard.setPoints(0.0);
         studentCard.setMemberValidity(0);
+        studentCard.setValidityTime(new Timestamp(System.currentTimeMillis()));
         studentCard.setStudent(s);
         //保存学员卡信息
         DAOManager.studentCardDao.save(studentCard);

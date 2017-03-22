@@ -56,8 +56,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //banner -->
 <div class="courses_box1">
-    <div class="container">
-        <h3 class="shortcode" style="font-size: 36px;font-weight: bold; text-align: center"><%= request.getAttribute("info") %></h3>
+    <div class="alert alert-dismissible admission-alert info" role="alert" align="center">
+        <%= request.getAttribute("info") %>
     </div>
 </div>
 

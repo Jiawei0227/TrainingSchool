@@ -21,4 +21,5 @@ public class CourseVO {
     public int isPassed;
 
     public int isChecked;
+
 }

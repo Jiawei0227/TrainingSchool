@@ -9,4 +9,9 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class ManagerDao extends BaseDao<Manager,Integer> {
+
+    public Manager getManager(){
+        return getByHQL("from Manager m where m.id=1");
+    }
+
 }

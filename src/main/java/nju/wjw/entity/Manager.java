@@ -17,6 +17,10 @@ public class Manager {
 
     private String password;
 
+    @OneToOne
+    @JoinColumn(name="aid")
+    private Account account;
+
     public Integer getId() {
         return id;
     }
@@ -39,6 +43,14 @@ public class Manager {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
     }
 
     public String toCardFormat(){

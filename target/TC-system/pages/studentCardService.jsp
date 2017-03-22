@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-phone"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/student/studentCardValid">会员卡恢复</a></h5>
+                        <h5><a href="/student/studentCardValid">会员卡恢复/资格取消</a></h5>
                         <p>有效期一年，到期后卡上费用不足将暂停其记录；一旦支付，则恢复，会员记录可用；暂停1年后未支付，会员记录停止.</p>
                     </div>
                 </div>
@@ -97,8 +97,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-star"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="/student/studentCardInvalid">会员资格取消</a></h5>
-                        <p>会员可以通知系统取消资格. </p>
+                        <h5><a href="/student/updatePersonalInfo">会员卡信息修改</a></h5>
+                        <p>会员可以修改会员卡以及自己的个人信息. </p>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="icon_5"><i class="fa fa-globe"> </i></span>
                     </div>
                     <div class="service_1-right">
-                        <h5><a href="#">会员卡级别查询</a></h5>
+                        <h5><a href="/student/points">会员卡级别查询</a></h5>
                         <p>根据消费金额将享受不同等级的会员卡级别. </p>
                     </div>
                 </div>

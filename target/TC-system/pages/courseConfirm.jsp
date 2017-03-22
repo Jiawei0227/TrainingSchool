@@ -128,7 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="clearfix"> </div>
     </div>
 </div>
-</div>
+
 <!-- FlexSlider -->
 <link href="/css/flexslider.css" rel='stylesheet' type='text/css' />
 <script defer src="/js/jquery.flexslider.js"></script>
